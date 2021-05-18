@@ -1,0 +1,88 @@
+.event-plans {
+  color: #FFD000;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 7%;
+}
+
+
+.event-card > img {
+  max-width: 85px;
+  width: 100%;
+  height: 90px;
+  margin-left: 2%;
+  margin-top: 10%;
+}
+
+.event-card {
+  height: 45vh;
+  width: 15vw;
+  margin-top: 12%;
+  background: #8E4DE3;
+  color: white; 
+  border-radius: 15px;
+  margin-top: 15%;
+  border: 5px solid #FFD000;
+}
+
+
+.card-list {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
+  margin-left: 6%;
+}
+
+
+.name {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 13px;
+  font-weight: bold;
+}
+
+
+
+
+.detail-card {
+  height: 60vh;
+  width: 27vw;
+  margin-left: 35%;
+  background: #8E4DE3;
+  color: white; 
+  border-radius: 15px;
+  margin-top: 8%;
+  border: 5px solid#FFD000;
+}
+
+.detail-img {
+  max-width: 120px;
+  width: 100%;
+  height: 120px;
+  margin-left: 2%;
+  margin-top: 10%;
+}
+
+.evt-name {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 18px;
+  margin-bottom: 8%;
+}
+
+.evt-description {
+  color: #FFD000;
+  font-size: 15px;
+}
+
+.evt-loc {
+  color: #FFD000;
+  font-size: 15px;
+}
+
+.evt-date {
+  color: #FFD000;
+  font-size: 15px;
+}
