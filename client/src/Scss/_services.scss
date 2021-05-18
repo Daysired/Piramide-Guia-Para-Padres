@@ -1,0 +1,179 @@
+.services {
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 7%;
+  font-size: 35px;
+
+  .headline-services{
+    margin-left: 0%;
+    color: $fourth-color;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-top: 0;
+    font-size: 40px;
+    text-decoration: underline;
+  
+    .color-services {
+      padding: 10px;
+        color: black;
+    }
+  
+  }
+}
+
+.service-text {
+  width: 750px;
+  text-align: left;
+  padding: 0 0 0 2%;
+  margin-top: 5%;
+  margin-left: 15vw;
+  font-weight: bold;
+  font-size: 15px;
+  
+  .service-p {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 7%;
+    font-size: 15px;
+  
+    .span-services{
+      margin-left: 0%;
+      letter-spacing: 0px;
+      color: black;
+      padding-top: 0;
+      font-size: 15px;
+    
+      .color-span-services {
+        padding: 5px;
+        color: $fourth-color;
+        text-decoration: underline;
+        font-size: 18px;
+      }
+    
+    }
+
+  }
+}
+
+.service-p2 {
+  margin-left: 3%;
+  text-align: center;
+ }
+
+ .services-column {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 7%;
+
+   .conferences-s {
+     width: 300px;
+     height:500px;
+     background-color: $fourth-color;
+     border: 2px solid black;
+    
+
+     .c-column-h4 {
+      margin-top: 25px;
+      padding: 20px;
+      font-size: 20px;
+      text-align: center;
+
+     }
+
+     .conference-column-text {
+       text-align:center;
+       padding: 20px;
+
+       .service-prices {
+         margin-top: 15%;
+         font-size: 23px;
+         text-decoration: bolder;
+
+       }
+     }
+   }
+
+   .workshops-s {
+    width: 300px;
+    height:500px;
+    background-color: $fourth-color;
+    border: 2px solid black;
+
+    .w-column-h4 {
+      padding: 20px;
+      font-size: 20px;
+      margin-top: 25px;
+      text-align: center;
+
+    }
+    .workshop-column-text {
+      text-align: center;
+      padding: 20px;
+
+      .service-prices {
+        margin-top: 15%;
+        font-size: 23px;
+        text-decoration: bolder;
+
+      }
+    }
+
+   }
+
+   .counseling-s {
+    width: 300px;
+    height:500px;
+    background-color: $fourth-color;
+    border: 2px solid black;
+
+    .counseling-column-h4 {
+      padding: 20px;
+      font-size: 20px;
+      margin-top: 25px;
+      text-align: center;
+
+    }
+
+    .counseling-column-text {
+      text-align: center;
+      padding: 20px;
+
+      .service-prices {
+        margin-top: 22%;
+        font-size: 23px;
+        text-decoration: bolder;
+
+
+      }
+    }
+   }
+
+.buy-btn {
+  width: 125px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 70px;
+  font-size: 14px;
+  padding: 10px 20px;
+  margin-top: 15%;
+  margin-left: 25%;
+  font-weight: 700;
+  margin-bottom: 20vh;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color:white;
+    @include transition-ease;
+
+   a {
+      color: black;
+    }
+  }
+
+}
+
+ }
