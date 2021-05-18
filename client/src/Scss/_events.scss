@@ -1,30 +1,47 @@
-.event-plans {
-  color: #FFD000;
+.events-headline1 {
+  margin-top: 5%;
   text-align: center;
-  font-size: 30px;
-  margin-top: 7%;
+  margin-bottom: 7%;
+  font-size: 40px;
+
+  .headline-events{
+    margin-left: 0%;
+    color: $fourth-color;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-top: 0;
+    font-size: 40px;
+    text-decoration: underline;
+  
+    .color-events {
+      padding: 10px;
+        color: black;
+    }
+  
+  }
 }
 
-
-.event-card > img {
-  max-width: 85px;
+ .event-card img {
   width: 100%;
-  height: 90px;
-  margin-left: 2%;
-  margin-top: 10%;
+  height: 28vh;
 }
 
 .event-card {
   height: 45vh;
-  width: 15vw;
+  width: 18vw;
   margin-top: 12%;
-  background: #8E4DE3;
+  background: black;
   color: white; 
-  border-radius: 15px;
-  margin-top: 15%;
-  border: 5px solid #FFD000;
+  // margin-top: 15%;
+  border: 4px solid black;
 }
 
+.event-card-name {
+  border-top: 4px solid black;
+  background-color: #FFD000;
+  height: 15vh;
+  border-bottom: 4px solid #FFD000;
+}
 
 .card-list {
   display: grid;
@@ -38,51 +55,8 @@
   color: black;
   text-align: center;
   font-size: 15px;
-  margin-top: 13px;
+  margin-top: 23px;
   font-weight: bold;
+  text-decoration: none;
 }
 
-
-
-
-.detail-card {
-  height: 60vh;
-  width: 27vw;
-  margin-left: 35%;
-  background: #8E4DE3;
-  color: white; 
-  border-radius: 15px;
-  margin-top: 8%;
-  border: 5px solid#FFD000;
-}
-
-.detail-img {
-  max-width: 120px;
-  width: 100%;
-  height: 120px;
-  margin-left: 2%;
-  margin-top: 10%;
-}
-
-.evt-name {
-  color: black;
-  text-align: center;
-  font-size: 15px;
-  margin-top: 18px;
-  margin-bottom: 8%;
-}
-
-.evt-description {
-  color: #FFD000;
-  font-size: 15px;
-}
-
-.evt-loc {
-  color: #FFD000;
-  font-size: 15px;
-}
-
-.evt-date {
-  color: #FFD000;
-  font-size: 15px;
-}

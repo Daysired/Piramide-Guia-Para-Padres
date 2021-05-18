@@ -20,12 +20,12 @@ export default function EventDetail(props) {
       <div className="evento-details">
         {
           evento &&
-          <div className="card">
-            <h3>{evento.name}</h3>
-            <img src={evento.picture} alt={evento.name} />
-            <p>{evento.description}</p>
-            <p>{evento.location}</p>
-            <p>{evento.date}</p>
+          <div className="event-detail-card">
+            <h2 className="detail-event-name">{evento.name}</h2>
+            <img className="detail-event-img" src={evento.picture} alt={evento.name} />
+            <p className="detail-event-desc">{evento.description}</p>
+            <p className="detail-event-loc">{evento.location}</p>
+            <p className="detail-event-date">{evento.date}</p>
       
           </div>
         }

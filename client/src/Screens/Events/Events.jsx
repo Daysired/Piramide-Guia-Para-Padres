@@ -7,6 +7,13 @@ export default function events(props) {
   const { eventos } = props;
   return (
     <Layout>
+      <div>
+      <h2 className="events-headline1">
+          <span className="headline-events">
+            <b className="color-events">Nuestros</b>
+            Eventos
+          </span>
+        </h2>
       <div className="card-list">
         {eventos.map(evento => (
           <React.Fragment key={evento.id}>
@@ -14,12 +21,12 @@ export default function events(props) {
               <EventCard
                 title={evento.name}
                 image={evento.picture}
-                description={evento.description}
               />
             </Link>
           </React.Fragment>
         ))}
-      </div>
+        </div>
+        </div>
     </Layout>
   )
 }
