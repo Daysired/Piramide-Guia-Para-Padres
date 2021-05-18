@@ -1,0 +1,138 @@
+.text-div {
+  text-align: center;
+
+  .headline2 {
+    margin-left: 0%;
+    color: $fourth-color;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 50px;
+  
+    .color2 {
+      padding: 10px;
+      color: black;
+    }
+  }
+
+  .team-text {
+    width: 600px;
+    font-size: 20px;
+    color: black;
+    margin-top: 3%;
+    margin-left: 25%;
+    padding-top: 10px;
+
+  }
+}
+
+
+.container .pics { 
+  margin:50px; 
+  display:table; 
+} 
+.container .pics .pics-row { 
+  display:table-row; 
+} 
+
+.container .pics .pic-cell { 
+  display:table-cell; 
+  width: 0%; 
+  padding-left:80px; 
+} 
+
+
+.pic-cell-pic1 {
+  position: realtive;
+  width: 300px;
+  margin: 0;
+  
+
+  .img1 {
+    height: 300px;
+    width: 300px;
+    margin-top: 5%;
+    border: 5px solid black;
+    border-radius: 165px;
+  }
+  
+  .jd-bio {
+    width: 300px;
+    background-color: $fourth-color;
+    padding: 20px;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .h3-bio1 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .h4-bio1 {
+    padding-bottom: 15px;
+  }
+
+  .p-bio1 {
+    padding-bottom: 15px;
+  }
+} 
+
+.pic-container .pics .pic-cell.pic2 {
+  position: realtive;
+
+  .img2 {
+    height: 300px;
+    width: 300px;
+    margin-top: 5%;
+    border: 5px solid black;
+    border-radius: 165px;
+  }
+  
+  .rf-bio {
+    width: 300px;
+    background-color: $fourth-color;
+    padding: 20px;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .h3-bio2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .h4-bio2 {
+    padding-bottom: 15px;
+  }
+
+} 
+
+
+.pic-container .pics .pic-cell.pic3 {
+  position: realtive;
+
+  .img3 {
+    height: 300px;
+    width: 300px;
+    margin-top: 5%;
+    border: 5px solid black;
+    border-radius: 165px;
+  }
+  
+  .mv-bio {
+    width: 300px;
+    background-color: $fourth-color;
+    padding:38px;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .h3-bio3 {
+    padding-bottom: 10px;
+  }
+
+  .h4-bio3 {
+    padding-bottom: 30px;
+  }
+
+} 

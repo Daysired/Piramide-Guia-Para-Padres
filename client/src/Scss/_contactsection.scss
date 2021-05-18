@@ -1,0 +1,36 @@
+.c-container {
+  background-color: $fourth-color; 
+  height: 350px;
+}
+
+.c-container .c-section { 
+  margin:50px; 
+  display:table;
+  margin-top: 15%;
+} 
+.c-container .c-section .c-row { 
+  display:table-row; 
+} 
+
+.c-container .c-section .contact-cell { 
+  display:table-cell; 
+  width:33%; 
+} 
+
+
+.c-container .c-section .contact-cell.c1 {
+
+  .c-h3 {
+    margin-top: 6%;
+    margin-bottom:4%;
+    font-size: 23px;
+    text-align: left;
+  }
+
+  .icons {
+    margin-bottom:2%;
+    font-size: 20px;
+    
+  }
+
+}
