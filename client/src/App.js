@@ -1,5 +1,6 @@
 import { Route} from "react-router-dom";
 import Home from "./Screens/Home"
+import AboutUs from "./Screens/AboutUs"
 import './App.scss';
 
 function App() {
@@ -8,6 +9,11 @@ function App() {
       <Route exact path="/">
         <Home />
       </Route>
+
+      <Route path="/nosotros">
+        <AboutUs />
+      </Route>
+
     </div>
   );
 }
