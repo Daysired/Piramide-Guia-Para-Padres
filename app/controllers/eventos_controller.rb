@@ -1,16 +1,16 @@
 class EventosController < ApplicationController
-  before_action :set_evento, only: [:show, :update, :destroy]
+  before_action :set_evento, except: [:index, :create]
 
   # GET /eventos
   def index
     @eventos = Evento.all
 
-    render json: @eventos
+    render json: @eventos, status: :accepted
   end
 
   # GET /eventos/1
   def show
-    render json: @evento
+    render json: @evento, status: :accepted
   end
 
   # POST /eventos
@@ -18,7 +18,7 @@ class EventosController < ApplicationController
     @evento = Evento.new(evento_params)
 
     if @evento.save
-      render json: @evento, status: :created, location: @evento
+      render json: @evento, status: :created
     else
       render json: @evento.errors, status: :unprocessable_entity
     end
@@ -46,6 +46,6 @@ class EventosController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def evento_params
-      params.require(:evento).permit(:name, :date, :location, :picture, :description)
+      params.require(:evento).permit(:name, :date, :location, :picture, :description, :category)
     end
 end
