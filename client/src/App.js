@@ -3,6 +3,7 @@ import Home from "./Screens/Home"
 import Donate from "./Screens/Donate"
 import AboutUs from "./Screens/AboutUs"
 import ContactUs from "./Screens/ContactUs"
+import Testimonies from "./Screens/Testimonies"
 import './App.scss';
 
 function App() {
@@ -10,6 +11,10 @@ function App() {
     <div className="App">
       <Route exact path="/">
         <Home />
+      </Route>
+
+      <Route path="/testimonios">
+        <Testimonies />
       </Route>
 
       <Route path="/nosotros">
