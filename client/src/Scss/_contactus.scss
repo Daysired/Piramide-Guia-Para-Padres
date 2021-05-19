@@ -120,16 +120,16 @@ float: right;
 width: 20%;
 height: 10%;
 border-color: black;
-background-color: $fourth-color;
-color: black;
+background-color:black;
+color: white;
 border-radius: 70px;
 font-size: 14px;
-padding: 10px 20px 25px ;
+padding: 10px 20px 10px ;
 font-weight: bold;
 
  &:hover {
-        background-color:black;
-        color: white;
+        background-color: $fourth-color;
+        color: black;
       }
 
 }
