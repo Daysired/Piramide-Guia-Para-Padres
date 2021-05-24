@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Layout from "../Components/Layout";
-import ContactSection from "./ContactSection";
+import ContactSection from "../Components/Sections/ContactSection";
+
 import Team from "./Team";
 
 export default function Home() {
@@ -79,8 +80,7 @@ export default function Home() {
         <br />
         <br />
         <Team />
-    
-        <ContactSection />
+    <ContactSection/>
       </div>
     </Layout>
   );

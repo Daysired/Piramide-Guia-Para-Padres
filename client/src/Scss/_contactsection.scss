@@ -3,10 +3,11 @@
   height: 350px;
 }
 
-.c-container .c-section { 
+.c-section { 
   margin:50px; 
   display:table;
   margin-top: 15%;
+  margin-left: 10vw;
 } 
 .c-container .c-section .c-row { 
   display:table-row; 
@@ -21,16 +22,46 @@
 .c-container .c-section .contact-cell.c1 {
 
   .c-h3 {
-    margin-top: 6%;
-    margin-bottom:4%;
+    margin-top: 15%;
+    margin-bottom:8%;
     font-size: 23px;
     text-align: left;
   }
 
-  .icons {
-    margin-bottom:2%;
+  .icons  {
+    margin-bottom:5%;
     font-size: 20px;
     
+    a {
+      text-decoration: none;
+      color: black;
+    }
   }
 
 }
+
+.contact-schedule {
+  margin-left: 30vw;
+
+  .schedule-headline {
+    margin-top: 15%;
+    font-size: 23px;
+    text-align: left;
+    margin-bottom:8%;
+  }
+
+  table, th, td {
+    // border-bottom: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 3vh;
+  }
+  th, td {
+    padding: 4px;
+    text-align: left;    
+  }
+  
+  td {
+    margin-left: 5vw;
+  }
+}
+
