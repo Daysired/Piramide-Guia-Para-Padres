@@ -8,7 +8,7 @@ export default function FooterSection() {
           Copyright by Piramide Guía Para Padres 2020. All rights reserved.
         </p>
         <div className="e-mail">
-          <a href="mailto: contacto@piramideguiaparapadres.com">
+          <a href="mailto: piramideguiaparapadrescontacto@gmail.com">
             <i class="far fa-envelope"></i>
           </a>
         </div>
@@ -22,7 +22,7 @@ export default function FooterSection() {
           </a>
         </div>
         <div className="insta">
-          <a target="_blank" rel="noreferrer" href="">
+          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/_piramide_guia_para_padres/">
             <i class="fab fa-instagram"></i>
           </a>
         </div>

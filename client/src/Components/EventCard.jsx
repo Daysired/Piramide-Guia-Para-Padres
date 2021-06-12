@@ -4,11 +4,10 @@ export default function EventCard(props) {
   const {title, image, description, location, date} = props;
   return (
 <div>
-    {/* <img src={image} alt={title} /> */}
       <div className="event-card">
         <img src={image} alt={title} />
         <div className="event-card-name">
-      <p className="name">{title}</p>
+      <h4 className="small-card-name">{title}</h4>
         <p>{date}</p>
         <p>{location}</p>
         <p>{description}</p>

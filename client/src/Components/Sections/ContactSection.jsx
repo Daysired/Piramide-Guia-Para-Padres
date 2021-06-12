@@ -12,10 +12,10 @@ export default function ContactSection() {
                 <i class="fas fa-phone-alt"> (917) 497-9497</i>
               </div>
               <div className="icons">
-                <a href="mailto: contacto@piramideguiaparapadres.com">
+                <a href="mailto: piramideguiaparapadrescontacto@gmail.com">
                   <i class="far fa-envelope">
                     {" "}
-                    contacto@piramideguiaparapadres.com
+                    piramideguiaparapadrescontacto@gmail.com
                   </i>
                 </a>
               </div>
@@ -50,38 +50,38 @@ export default function ContactSection() {
               <h3 className="schedule-headline">Horario De Trabajo</h3>
               <table style={{ width: "30vw" }}>
                 <tr>
-                  <th>Lunes</th>
-                  <td>9:00AM-6:00PM</td>
+                  <th className="weekday">Lunes</th>
+                  <td className="schedule-time">9:00AM-6:00PM</td>
                 </tr>
 
                 <tr>
-                  <th rowspan="1">Martes</th>
-                  <td>9:00AM-6:00PM</td>
+                  <th rowspan="1" className="weekday">Martes</th>
+                  <td className="schedule-time">9:00AM-6:00PM</td>
                 </tr>
 
                 <tr>
-                  <th rowspan="1">Miercoles</th>
-                  <td>9:00AM-6:00PM</td>
+                  <th rowspan="1" className="weekday">Miercoles</th>
+                  <td className="schedule-time">9:00AM-6:00PM</td>
                 </tr>
 
                 <tr>
-                  <th rowspan="1">Jueves</th>
-                  <td>9:00AM-6:00PM</td>
+                  <th rowspan="1" className="weekday">Jueves</th>
+                  <td className="schedule-time">9:00AM-6:00PM</td>
                 </tr>
 
                 <tr>
-                  <th rowspan="1">Viernes</th>
-                  <td>9:00AM-6:00PM</td>
+                  <th rowspan="1" className="weekday">Viernes</th>
+                  <td className="schedule-time">9:00AM-6:00PM</td>
                 </tr>
 
                 <tr>
-                  <th rowspan="1">Sabado</th>
-                  <td>Cerrado</td>
+                  <th rowspan="1" className="weekday">Sabado</th>
+                  <td className="schedule-time">Cerrado</td>
                 </tr>
 
                 <tr>
-                  <th rowspan="1">Miercoles</th>
-                  <td>Cerrado</td>
+                  <th rowspan="1" className="weekday">Domingo</th>
+                  <td className="schedule-time">Cerrado</td>
                 </tr>
               </table>
             </div>

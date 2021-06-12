@@ -9,12 +9,6 @@
     rgba(black, 0.2)
   ),
 
-  // url("https://i.imgur.com/1YsjJwU.jpg") center top
-  // ;
-
-  // url("https://piramideguiaparapadres.com/wp-content/uploads/2015/12/dark-hero-4.jpg") center top
-  // ;
-
   url('https://i.imgur.com/r8Swfn3.jpg') center top;
   background-size: cover;
   display: flex;
@@ -41,7 +35,7 @@ nav {
   }
 }
 
-span {
+.headline {
   width: 500px;
   margin-left: 70px;
   padding-top: 140px;
@@ -144,7 +138,7 @@ span {
   background-color: transparent;
   text-align: center;
   font-size: 14px;
-  margin-left: 95px;
+  margin-left: 10vw;
   border: 2px solid black;
   border-radius: 70px;
   padding: 10px;
@@ -189,7 +183,7 @@ span {
   background-color: transparent;
   text-align: center;
   font-size: 14px;
-  margin-left: 95px;
+  margin-left: 10vw;
   border: 2px solid black;
   border-radius: 70px;
   padding: 10px;
@@ -234,7 +228,7 @@ span {
     background-color: transparent;
     text-align: center;
     font-size: 14px;
-    margin-left: 95px;
+    margin-left: 10vw;
     border: 2px solid black;
     border-radius: 70px;
     padding: 10px;

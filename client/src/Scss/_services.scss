@@ -26,7 +26,7 @@
   text-align: left;
   padding: 0 0 0 2%;
   margin-top: 5%;
-  margin-left: 15vw;
+  margin-left: 22vw;
   font-weight: bold;
   font-size: 15px;
   
@@ -67,9 +67,15 @@
 
    .conferences-s {
      width: 300px;
-     height:500px;
-     background-color: $fourth-color;
-     border: 2px solid black;
+     height:1330px;
+
+     .conference-content {
+      width: 300px;
+      height:360px;
+      background-color: $fourth-color;
+      border: 2px solid black;
+      margin-bottom: 4%;
+     }
     
 
      .c-column-h4 {
@@ -85,9 +91,10 @@
        padding: 20px;
 
        .service-prices {
-         margin-top: 15%;
+         margin-top: 13%;
          font-size: 23px;
          text-decoration: bolder;
+         margin-bottom: 5%;
 
        }
      }
@@ -95,9 +102,15 @@
 
    .workshops-s {
     width: 300px;
-    height:500px;
-    background-color: $fourth-color;
-    border: 2px solid black;
+    height:1330px;
+
+    .workshop-content {
+      width: 300px;
+      height:360px;
+      background-color: $fourth-color;
+      border: 2px solid black;
+      margin-bottom: 4%;
+    }
 
     .w-column-h4 {
       padding: 20px;
@@ -111,9 +124,10 @@
       padding: 20px;
 
       .service-prices {
-        margin-top: 15%;
+        margin-top: 13%;
         font-size: 23px;
         text-decoration: bolder;
+        margin-bottom: 5%;
 
       }
     }
@@ -122,9 +136,15 @@
 
    .counseling-s {
     width: 300px;
-    height:500px;
-    background-color: $fourth-color;
-    border: 2px solid black;
+    height:1330px;
+
+    .counseling-content {
+      width: 300px;
+      height:360px;
+      background-color: $fourth-color;
+      border: 2px solid black;
+      margin-bottom: 4%;
+    }
 
     .counseling-column-h4 {
       padding: 20px;
@@ -139,7 +159,8 @@
       padding: 20px;
 
       .service-prices {
-        margin-top: 22%;
+        margin-top: 19%;
+        margin-bottom: 5%;
         font-size: 23px;
         text-decoration: bolder;
 
@@ -159,21 +180,63 @@
   margin-left: 25%;
   font-weight: 700;
   margin-bottom: 20vh;
+  color: white;
 
-  a {
-    color: white;
-    text-decoration: none;
-  }
 
   &:hover {
     background-color:white;
     @include transition-ease;
+    color: black;
 
-   a {
-      color: black;
-    }
   }
 
 }
 
- }
+.buy-btn2 {
+  width: 125px;
+  background-color: #0089FF;
+  border: 2px solid black;
+  border-radius: 70px;
+  font-size: 14px;
+  padding: 10px 20px;
+  margin-top: 15%;
+  margin-left: 27%;
+  font-weight: 700;
+  margin-bottom: 20vh;
+  color: white;
+
+
+  &:hover {
+    background-color:white;
+    @include transition-ease;
+    color: black;
+
+  }
+}
+
+.buy-btn3 {
+  width: 125px;
+  background-color: $fourth-color;
+  border: 2px solid black;
+  border-radius: 70px;
+  font-size: 14px;
+  padding: 10px 20px;
+  margin-top: 15%;
+  margin-left: 27%;
+  font-weight: 700;
+  margin-bottom: 20vh;
+  color: black;
+
+
+  &:hover {
+    background-color:white;
+    @include transition-ease;
+    color: black;
+
+  }
+
+}
+
+
+
+}
