@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
-      <img class="main-logo" src="https://piramideguiaparapadres.com/wp-content/uploads/2018/03/pediatric-logo-color.png" alt="Pirámide guía para padres" />
+      <img class="main-logo" src="https://i.imgur.com/b4A7PUH.png" alt="Pirámide guía para padres" />
        </div>
       <Burger />
     </Nav>
