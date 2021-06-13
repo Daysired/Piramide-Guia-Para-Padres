@@ -104,7 +104,7 @@ export default function Services() {
               <p>Piramide Guia Para Padres ofrece conserjeria a padres y
              organizaciónes que quieran participar. El tiempo de consejeria es entre 45 minutos a una hora que
                 equivale a $100 en costo. Ofrecemos consejeria virtual y en persona, dejenos saber su preferencia.</p>
-              <p className="service-prices">$100/45min-1hr</p>
+              <p className="service-prices">$1.00/45min-1hr</p>
 
               
               </div>

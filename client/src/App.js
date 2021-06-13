@@ -6,7 +6,7 @@ import Services from "./Screens/Services"
 import ContactUs from "./Screens/ContactUs"
 import Testimonies from "./Screens/Testimonies"
 import EventContainer from "./Components/EventContainer";
-import './App.scss';
+import './App.css';
 
 function App() {
   return (
