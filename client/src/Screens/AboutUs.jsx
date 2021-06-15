@@ -21,7 +21,7 @@ export default function AboutUs() {
           </p>
           <br />
           <p className="about-t">
-            PIRAMIDE es un programa cuya filosofía es enseñar a las familias
+            Piramide Guia Para Padres es un programa cuya filosofía es enseñar a las familias
             hispanas a entender situaciones en las cuales los padres y los niños
             se comportan en forma inadecuada causando descontento en cada uno de
             los miembro del hogar, convirtiéndolo en un hogar disfuncional.
