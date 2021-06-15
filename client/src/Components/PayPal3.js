@@ -14,7 +14,7 @@ export default function PayPal3() {
                 description: " consejeria por 45 minutos a una hora",
                 amount: {
                   currency_code: "USD",
-                  value: 1.00,
+                  value: 100.00,
                 },
               },
             ],
