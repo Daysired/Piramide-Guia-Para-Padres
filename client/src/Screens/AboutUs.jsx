@@ -16,8 +16,8 @@ export default function AboutUs() {
           <p className="about-t">
             Somos un programa privado legalmente constituida en la ciudad de
             Nueva York desde el año 2013, conformada por un grupo de
-            profesionales voluntarios con 30 años de experiencia. “Una familia
-            armónica nos proveerá de una mejor sociedad“
+            profesionales voluntarios con 30 años de experiencia. En nuestro programa creemos que una familia
+            armónica nos proveerá de una mejor sociedad.
           </p>
           <br />
           <p className="about-t">

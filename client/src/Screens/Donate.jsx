@@ -17,7 +17,7 @@ export default function Donate() {
               <div className="donate-cell a1">
                 <h4 className="howto-donate">Como Hacer Una Donación</h4>
                 <p className="donate-p">
-                  organizaciónes que quieran participar en una conferencia
+                  Organizaciónes que quieran participar en una conferencia
                   gratis sobre el tabaco y sus efectos, ponerse en contacto con
                   la organización Piramide Guia Para Padres. Esperamos de
                   ustedes que puedan contribuir con la compra de 50 libros para
@@ -53,7 +53,7 @@ export default function Donate() {
                 </p>
                 <p className="about-author3">
                   Esa experiencia la hizo crear y llevar hasta Santo Domingo la
-                  ”Fundación Pirámide” para educar en mi país sobre los efectos de fumar, que
+                  ”Fundación Pirámide” para educar en su país sobre los efectos de fumar, que
                   afecta tanto a su salud como a su economía.
                 </p>
               </div>
