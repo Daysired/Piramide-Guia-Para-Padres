@@ -8,10 +8,10 @@ export default function ContactUs() {
 
     emailjs
       .sendForm(
-        "service_7zgpuhn",
-        "template_cexini4",
+        "service_99xi51u",
+        "template_on6sslk",
         e.target,
-        "user_ZrsCUIvvm46OX0V4b8rFc"
+        "R98vhBw2al6STI9Of"
       )
       .then(
         (result) => {
@@ -58,7 +58,7 @@ export default function ContactUs() {
                   className="input1"
                   type="text"
                   name="name"
-                  placeholder="Name"
+                  placeholder="Nombre"
                 />
               </p>
               <p className="p-input2">
